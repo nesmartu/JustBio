@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: content-box;
+}
+
+@font-face {
+  font-family: NotoSansJPRegular;
+  src: url('fonts/NotoSansJP-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSansJPMedium;
+  src: url('fonts/NotoSansJP-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSansJPThin;
+  src: url('fonts/NotoSansJP-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: NotoSansJPBold;
+  src: url('fonts/NotoSansJP-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.video-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(/images/MirrosEdge.jpg) no-repeat #333333;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.video-box video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  filter: blur(0px)
+}
+
+=
